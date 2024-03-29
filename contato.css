@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra-cima{
+    text-align: center;
+    padding: 8.8px;
+    height: 10vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23232e;
+    height: 10vh;
+}
+
+.nav-lista{
+    list-style: none;
+    display: flex;
+}
+
+.nav-lista li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+
+}
+
+main {
+    padding: 10px;
+    background-color: #fbfbff;
+    color: #23232e;
+    height: 70vh;
+    
+}
+
+.h2-form{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #23232e;
+
+}
+
+button{
+    padding: 5px;
+    background: #663399;
+}
+
+button:hover{
+    color: rgb(9, 255, 0);
+    background-color: #23232e;
+}
+

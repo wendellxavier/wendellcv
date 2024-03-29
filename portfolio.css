@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra-cima{
+    text-align: center;
+    padding: 8.8px;
+    height: 10vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23232e;
+    height: 10vh;
+}
+
+.nav-lista{
+    list-style: none;
+    display: flex;
+}
+
+.nav-lista li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+
+}
+
+main {
+    padding: 10px;
+    background-color: #fbfbff;
+    color: #23232e;
+    height: 70vh;
+    
+}
+.meio-h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    align-self: center;
+}
+
+
+
+.card{
+    border: 5px solid #000000;
+    border-radius: 10px;
+    box-shadow: 5px #23232e;
+    height: 200px;
+    width: 355px;
+    padding: 10px;
+    margin: 3px;
+}
+
+.card{
+    position: relative;
+}
+
+.card-titulo{
+    color: #f80505;
+}
+
+.card-titulo{
+    font-size: 20px;
+    text-align: center;
+}
+
+.botao{
+    border: 2px solid #23232e;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
+
+.botao:hover{
+    background: #23232e;
+}
+
+.botao{
+    padding: 10px;
+    margin: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
